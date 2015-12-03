@@ -3,7 +3,7 @@
 //  SmartBulb
 //
 //  Created by Frank Gao on 12/2/15.
-//  Copyright © 2015 GTS. All rights reserved.
+//  Copyright © 2015 GTX. All rights reserved.
 //
 import UIKit
 import AVFoundation
@@ -25,20 +25,25 @@ class LanguageChooseAndLogin: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*
-        if ( NSUserDefaults.standardUserDefaults().stringForKey("usernameKey") == nil && NSUserDefaults.standardUserDefaults().stringForKey("passwordKey") == nil){
-            NSUserDefaults.standardUserDefaults().setObject("", forKey: "usernameKey")
+        
+        if ( NSUserDefaults.standardUserDefaults().stringForKey("userNameKey") == nil && NSUserDefaults.standardUserDefaults().stringForKey("passwordKey") == nil){
+            NSUserDefaults.standardUserDefaults().setObject("", forKey: "userNameKey")
             NSUserDefaults.standardUserDefaults().setObject("", forKey: "passwordKey")
+            prounce("welcome to smart bulb, here you can switch on and off your lights.and chat with others. Seems that it's your first time to use this app. Please type in your user name and password, then click check mark to log in")
+            //prounce("seems that it's your first time to use this app. Please type in your user name and password, then click check mark to log in")
         } else if (  NSUserDefaults.standardUserDefaults().stringForKey("passwordKey") == nil){
-            NSUserDefaults.standardUserDefaults().setObject("", forKey: "usernameKey")
+            NSUserDefaults.standardUserDefaults().setObject("", forKey: "userNameKey")
             password.text = NSUserDefaults.standardUserDefaults().stringForKey("passwordKey")!
-        } else if ( NSUserDefaults.standardUserDefaults().stringForKey("usernameKey") == nil){
+        } else if ( NSUserDefaults.standardUserDefaults().stringForKey("userNameKey") == nil){
             NSUserDefaults.standardUserDefaults().setObject("", forKey: "passwordKey")
-            userName.text = NSUserDefaults.standardUserDefaults().stringForKey("usernameKey")!
+            userName.text = NSUserDefaults.standardUserDefaults().stringForKey("userNameKey")!
         } else {
-            userName.text = NSUserDefaults.standardUserDefaults().stringForKey("usernameKey")!
+            userName.text = NSUserDefaults.standardUserDefaults().stringForKey("userNameKey")!
             password.text = NSUserDefaults.standardUserDefaults().stringForKey("passwordKey")!
-        }*/
+            
+            prounce("welcome to smart bulb. Please click check mark if you want to use the previous account.")
+        }
+        
         
         //piker codes:
         /*
@@ -63,26 +68,23 @@ class LanguageChooseAndLogin: UIViewController {
             NSUserDefaults.standardUserDefaults().setObject(userName.text, forKey: "userNameKey")
             NSUserDefaults.standardUserDefaults().setObject(password.text, forKey: "passwordKey")
             
-            //isLogInSuccess(userName.text!, passco: password.text!)){
-            //prounce("congradulations, your user name and password are correct. You are logged in now")
             
             if(deligate.txrx?.login(userName.text!,password: password.text!)==true){
+                prounce("congradulations, your user name and password are correct. You are logged in now")
                 self.performSegueWithIdentifier("successChangeView", sender: nil)
+            }else {
+                prounce("Sorry, you user name or password is not correct. Please recheck your user name and password then try again")
             }
-            
-            //} else {
-            //    prounce("Sorry, you user name or password is not correct. Please recheck your user name and password then try to login again")
-            //}
-        
+
         } else {
-            prounce("Please type in your username and password and click check mark to login again")
+            prounce("Sorry, you user name or password is not correct. Please recheck your user name and password then try again")
         }
     }
     
     func prounce (words: String){
         let utt = AVSpeechUtterance(string: words)
         utt.voice = AVSpeechSynthesisVoice(language: "en-GB")
-        utt.rate = 0.45
+        utt.rate = 0.4
         let syn = AVSpeechSynthesizer()
         syn.speakUtterance(utt)
     }
