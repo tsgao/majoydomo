@@ -39,7 +39,16 @@ class ApplicationsViewController: UIViewController {
     func start_rx(){
         while(true){
             if(view.window != nil){
-                deligate.txrx!.start_rx();
+                let message = deligate.txrx!.start_rx();
+                //deligate.txrx!.start_rx();
+                print(message);
+                if(message == "* On"){
+                    bulb.image = UIImage(named: ("on.png"))
+                }
+                if(message == "* Off"){
+                    bulb.image = UIImage(named: ("off.png"))
+                }
+
             }
             NSThread .sleepForTimeInterval(0.5);
         }
@@ -48,10 +57,10 @@ class ApplicationsViewController: UIViewController {
     @IBAction func change(sender: AnyObject) {
         
         if(mySwitch.on){
-            deligate.txrx!.send("c");
+            deligate.txrx!.send("o");
             bulb.image = UIImage(named: ("on.png"))
         }else{
-            deligate.txrx!.send("o");
+            deligate.txrx!.send("c");
             bulb.image = UIImage(named: ("off.png"))
         }
     }

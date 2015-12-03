@@ -48,7 +48,9 @@ class ChattingViewController: UIViewController, UITextViewDelegate {
         while(true){
             if(view.window != nil){
                 let message = deligate.txrx!.start_rx();
-                if(message != "" && message != "Username:" && message != "Password:  "){
+                let index = message.startIndex;
+                //if(message[index] !=  ">" && message[index] !=  "*"){
+                if(message != "" && message[index] != "U" && message[index] != "P" && message[index] != ">" && message[index] != "*"){
                     dispatch_async(dispatch_get_main_queue()) {
                         self.chatting_window.text?.appendContentsOf(message);
                         self.chatting_window.text?.appendContentsOf("\n");

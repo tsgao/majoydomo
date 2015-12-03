@@ -259,9 +259,8 @@
                                         <exclude reference="otB-5g-NII"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
+                                <variation key="heightClass=regular">
                                     <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="25"/>
-                                    <rect key="frame" x="142" y="149" width="443" height="32"/>
                                     <mask key="constraints">
                                         <include reference="otB-5g-NII"/>
                                     </mask>
@@ -289,34 +288,7 @@
                                     </mask>
                                 </variation>
                             </textField>
-<<<<<<< HEAD
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPS-Tq-gSQ">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="117" id="Vfn-zI-UtQ"/>
-                                    <constraint firstAttribute="height" constant="32" id="tfJ-bB-AyM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Vfn-zI-UtQ"/>
-                                        <exclude reference="tfJ-bB-AyM"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="Vfn-zI-UtQ"/>
-                                        <include reference="tfJ-bB-AyM"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWP-7p-R0F">
-=======
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password: " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWP-7p-R0F">
->>>>>>> ec5beba76516b7a1c2eb9c2b9f734e65f4c2ca59
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <animations/>
                                 <constraints>
@@ -324,13 +296,8 @@
                                     <constraint firstAttribute="width" constant="117" id="Vgm-dx-SvH"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="wHI-KA-szN"/>
                                 </constraints>
-<<<<<<< HEAD
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-=======
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
->>>>>>> ec5beba76516b7a1c2eb9c2b9f734e65f4c2ca59
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -358,7 +325,7 @@
                                     <offsetWrapper key="textShadowOffset" horizontal="1" vertical="1"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Majordomo" id="TDJ-13-V8v"/>
+                                    <navigationItem title="Alfred" id="TDJ-13-V8v"/>
                                 </items>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -389,8 +356,7 @@
                                         <exclude reference="haw-Pu-IvH"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="238" y="201" width="125" height="125"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="Imb-TQ-W43"/>
                                         <include reference="haw-Pu-IvH"/>
@@ -419,7 +385,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="xpb-Yr-tC6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">

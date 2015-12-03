@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        txrx = TxRx(input_addr: "localhost",input_port: 8888);
-        
+        txrx = TxRx(input_addr: "192.168.31.184",input_port: 8888);
+        //txrx = TxRx(input_addr: "localhost",input_port: 8888);
         
         return true
     }

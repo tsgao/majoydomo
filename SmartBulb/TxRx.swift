@@ -73,8 +73,11 @@ class TxRx: NSObject {
             let bytesRead = inputStream.read(&buffer, maxLength: bufferSize)
             if bytesRead >= 0 {
                 //print(NSString(bytes: &buffer, length: bytesRead, encoding: NSUTF8StringEncoding));
-                let message = NSString(bytes: &buffer, length: bytesRead, encoding: NSUTF8StringEncoding);
-                return message! as String;
+                let message = NSString(bytes: &buffer, length: bytesRead, encoding: NSUTF8StringEncoding) as! String;
+                //let index = message.startIndex;
+                //if(message[index] !=  ">" && message[index] !=  "*"){
+                    return message;
+                //}
             }
         }
         //}
