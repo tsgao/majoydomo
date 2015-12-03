@@ -66,6 +66,7 @@ class LanguageChooseAndLogin: UIViewController {
             //isLogInSuccess(userName.text!, passco: password.text!)){
             //prounce("congradulations, your user name and password are correct. You are logged in now")
             
+            
             if(deligate.txrx?.login(userName.text!,password: password.text!)==true){
                 self.performSegueWithIdentifier("successChangeView", sender: nil)
             }
