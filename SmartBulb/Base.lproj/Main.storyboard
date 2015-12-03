@@ -259,9 +259,8 @@
                                         <exclude reference="otB-5g-NII"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
+                                <variation key="heightClass=regular">
                                     <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="25"/>
-                                    <rect key="frame" x="142" y="149" width="443" height="32"/>
                                     <mask key="constraints">
                                         <include reference="otB-5g-NII"/>
                                     </mask>
@@ -357,8 +356,7 @@
                                         <exclude reference="haw-Pu-IvH"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="238" y="201" width="125" height="125"/>
+                                <variation key="heightClass=regular">
                                     <mask key="constraints">
                                         <include reference="Imb-TQ-W43"/>
                                         <include reference="haw-Pu-IvH"/>
