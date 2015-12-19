@@ -80,3 +80,5 @@ Peng Sun <a href="mailto:psun@iastate.edu">psun@iastate.edu</a>
 External resource links
 -----------------------
 - Voice Module
+<a href="https://developer.apple.com/av-foundation/">AV Foundation</a>
+
