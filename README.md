@@ -20,12 +20,15 @@ git clone git://github.com/tsgao/majoydomo.git
 - Build Server
 Change directory to Server folder and run make
 ```
-cd Server/Client
+cd Server
 make
 ```
 - Build Client
 Change directory to Server folder and run make
-
+```
+cd Server/Client
+make
+```
 - Build Application
 Open SmartBulb.xcodeproj by using Xcode, and run it on IOS simulater or IOS devices if you have Apple developer ID. 
 
@@ -61,13 +64,22 @@ cd Server/Client
 cd Server/Client
 ./client <Server IP> 8888
 ```
-Sending message
+    Sending message
 ```
 >> Your message
 ```
+    Sending command to turn on light
+```
+o
+```
+    Sending command to turn off light
+```
+c
+```
+
 - Chatting by using IOS devices
 After the application is installed, you can simply click the App Icon on your device. Then, follow voice instruction to log in. Then click the Chatting icon on the bottom right. Sending your message in the text box.
-
+![alt text](https://github.com/tsgao/majoydomo/how_to_use_app.png "How to use app")
 
 Team members and contacts.
 --------------------------
