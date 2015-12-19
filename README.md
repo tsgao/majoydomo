@@ -71,10 +71,10 @@ After the application is installed, you can simply click the App Icon on your de
 
 Team members and contacts.
 --------------------------
-Tianshuang Gao <a href="mailto:tsgao@iastate.edu">tsgao@iastate.edu</a>
-Tianxiang Gao <a href="mailto:gtx@iastate.edu">gtx@iastate.edu</a>
-Hailu Yang <a href="mailto:hlyang@iastate.edu">hlyang@iastate.edu</a>
-Peng Sun <a href="mailto:psun@iastate.edu">psun@iastate.edu</a>
+Tianshuang Gao <a href="mailto:tsgao@iastate.edu">tsgao@iastate.edu</a> </br>
+Tianxiang Gao <a href="mailto:gtx@iastate.edu">gtx@iastate.edu</a> </br>
+Hailu Yang <a href="mailto:hlyang@iastate.edu">hlyang@iastate.edu</a> </br>
+Peng Sun <a href="mailto:psun@iastate.edu">psun@iastate.edu</a> 
 
 
 External resource links
