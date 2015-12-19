@@ -22,6 +22,7 @@ class ApplicationsViewController: UIViewController {
         
         let rx_thread = NSThread(target:self, selector:"start_rx", object:nil)
         rx_thread.start();
+        bulb.image = UIImage(named: ("on.png"))
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -43,16 +44,19 @@ class ApplicationsViewController: UIViewController {
                 //deligate.txrx!.start_rx();
                 print(message);
                 if(message == "* On"){
+                    mySwitch.on = true;
                     bulb.image = UIImage(named: ("on.png"))
                 }
                 if(message == "* Off"){
+                    mySwitch.on = false;
                     bulb.image = UIImage(named: ("off.png"))
                 }
-
+                
             }
             NSThread .sleepForTimeInterval(0.5);
         }
     }
+
     
     @IBAction func change(sender: AnyObject) {
         

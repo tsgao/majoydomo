@@ -29,7 +29,7 @@ class LanguageChooseAndLogin: UIViewController {
         if ( NSUserDefaults.standardUserDefaults().stringForKey("userNameKey") == nil && NSUserDefaults.standardUserDefaults().stringForKey("passwordKey") == nil){
             NSUserDefaults.standardUserDefaults().setObject("", forKey: "userNameKey")
             NSUserDefaults.standardUserDefaults().setObject("", forKey: "passwordKey")
-            prounce("Hi, I'm Alfred, your valet. Here you can switch on and off your lights, and chat with others. Seems that it's your first time to use this app. Please enter your user name and password, then press check mark to log in")
+            prounce("Hi I'm Alfred, your valet. Here you can switch on and off your lights, and chat with others. Seems that it's your first time to use this app. Please enter your user name and password, then press the check mark to log in")
             //prounce("seems that it's your first time to use this app. Please type in your user name and password, then click check mark to log in")
         } else if (  NSUserDefaults.standardUserDefaults().stringForKey("passwordKey") == nil){
             NSUserDefaults.standardUserDefaults().setObject("", forKey: "userNameKey")
@@ -41,7 +41,7 @@ class LanguageChooseAndLogin: UIViewController {
             userName.text = NSUserDefaults.standardUserDefaults().stringForKey("userNameKey")!
             password.text = NSUserDefaults.standardUserDefaults().stringForKey("passwordKey")!
             
-            prounce("Hi, I'm Alfred, your valet. Please press check mark if you want to use the previous account.")
+            prounce("Hi I'm Alfred. Please press the check mark if you want to use the previous account.")
         }
         
         
@@ -70,7 +70,7 @@ class LanguageChooseAndLogin: UIViewController {
             
             
             if(deligate.txrx?.login(userName.text!,password: password.text!)==true){
-                prounce("congradulations! You are sucessfully logged in now")
+                prounce("congradulations, your user name and password are correct. You are logged in now")
                 self.performSegueWithIdentifier("successChangeView", sender: nil)
             }else {
                 prounce("Sorry, you user name or password is not correct. Please recheck your user name and password then try again")

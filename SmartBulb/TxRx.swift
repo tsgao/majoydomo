@@ -76,13 +76,14 @@ class TxRx: NSObject {
                 let message = NSString(bytes: &buffer, length: bytesRead, encoding: NSUTF8StringEncoding) as! String;
                 //let index = message.startIndex;
                 //if(message[index] !=  ">" && message[index] !=  "*"){
-                    return message;
+                return message;
                 //}
             }
         }
         //}
         return "";
     }
+
     func login(username:String, password:String)->Bool{
         /*
         var mystring = NSUserDefaults.standardUserDefaults().stringForKey("usernameKey")!;

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1585FE991A4582320001AFF4"
-               BuildableName = "Alfred.app"
-               BlueprintName = "Alfred"
-               ReferencedContainer = "container:Alfred.xcodeproj">
+               BuildableName = "SmartBulb.app"
+               BlueprintName = "SmartBulb"
+               ReferencedContainer = "container:SmartBulb.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1585FEAE1A4582320001AFF4"
-               BuildableName = "Alfred.xctest"
-               BlueprintName = "AlfredTests"
-               ReferencedContainer = "container:Alfred.xcodeproj">
+               BuildableName = "SmartBulbTests.xctest"
+               BlueprintName = "SmartBulbTests"
+               ReferencedContainer = "container:SmartBulb.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1585FEAE1A4582320001AFF4"
-               BuildableName = "Alfred.xctest"
-               BlueprintName = "AlfredTests"
-               ReferencedContainer = "container:Alfred.xcodeproj">
+               BuildableName = "SmartBulbTests.xctest"
+               BlueprintName = "SmartBulbTests"
+               ReferencedContainer = "container:SmartBulb.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1585FE991A4582320001AFF4"
-            BuildableName = "Alfred.app"
-            BlueprintName = "Alfred"
-            ReferencedContainer = "container:Alfred.xcodeproj">
+            BuildableName = "SmartBulb.app"
+            BlueprintName = "SmartBulb"
+            ReferencedContainer = "container:SmartBulb.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1585FE991A4582320001AFF4"
-            BuildableName = "Alfred.app"
-            BlueprintName = "Alfred"
-            ReferencedContainer = "container:Alfred.xcodeproj">
+            BuildableName = "SmartBulb.app"
+            BlueprintName = "SmartBulb"
+            ReferencedContainer = "container:SmartBulb.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1585FE991A4582320001AFF4"
-            BuildableName = "Alfred.app"
-            BlueprintName = "Alfred"
-            ReferencedContainer = "container:Alfred.xcodeproj">
+            BuildableName = "SmartBulb.app"
+            BlueprintName = "SmartBulb"
+            ReferencedContainer = "container:SmartBulb.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

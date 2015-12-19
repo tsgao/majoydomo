@@ -37,13 +37,13 @@
 
 /* Begin PBXFileReference section */
 		150E4D621C0CF39500FF1EE1 /* ApplicationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationsViewController.swift; sourceTree = "<group>"; };
-		1585FE9A1A4582320001AFF4 /* Alfred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alfred.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1585FE9A1A4582320001AFF4 /* SmartBulb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartBulb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1585FE9E1A4582320001AFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1585FE9F1A4582320001AFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1585FEA41A4582320001AFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1585FEA61A4582320001AFF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1585FEA91A4582320001AFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1585FEAF1A4582320001AFF4 /* Alfred.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alfred.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1585FEAF1A4582320001AFF4 /* SmartBulbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartBulbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1585FEB41A4582320001AFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1585FEB51A4582320001AFF4 /* SmartBulbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartBulbTests.swift; sourceTree = "<group>"; };
 		158FD9D21C0D706300F38AC2 /* ChattingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 		1585FE9B1A4582320001AFF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1585FE9A1A4582320001AFF4 /* Alfred.app */,
-				1585FEAF1A4582320001AFF4 /* Alfred.xctest */,
+				1585FE9A1A4582320001AFF4 /* SmartBulb.app */,
+				1585FEAF1A4582320001AFF4 /* SmartBulbTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1585FE991A4582320001AFF4 /* Alfred */ = {
+		1585FE991A4582320001AFF4 /* SmartBulb */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1585FEB91A4582320001AFF4 /* Build configuration list for PBXNativeTarget "Alfred" */;
+			buildConfigurationList = 1585FEB91A4582320001AFF4 /* Build configuration list for PBXNativeTarget "SmartBulb" */;
 			buildPhases = (
 				1585FE961A4582320001AFF4 /* Sources */,
 				1585FE971A4582320001AFF4 /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = Alfred;
+			name = SmartBulb;
 			productName = SmartBulb;
-			productReference = 1585FE9A1A4582320001AFF4 /* Alfred.app */;
+			productReference = 1585FE9A1A4582320001AFF4 /* SmartBulb.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1585FEAE1A4582320001AFF4 /* AlfredTests */ = {
+		1585FEAE1A4582320001AFF4 /* SmartBulbTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1585FEBC1A4582320001AFF4 /* Build configuration list for PBXNativeTarget "AlfredTests" */;
+			buildConfigurationList = 1585FEBC1A4582320001AFF4 /* Build configuration list for PBXNativeTarget "SmartBulbTests" */;
 			buildPhases = (
 				1585FEAB1A4582320001AFF4 /* Sources */,
 				1585FEAC1A4582320001AFF4 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				1585FEB11A4582320001AFF4 /* PBXTargetDependency */,
 			);
-			name = AlfredTests;
+			name = SmartBulbTests;
 			productName = SmartBulbTests;
-			productReference = 1585FEAF1A4582320001AFF4 /* Alfred.xctest */;
+			productReference = 1585FEAF1A4582320001AFF4 /* SmartBulbTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1585FE951A4582320001AFF4 /* Build configuration list for PBXProject "Alfred" */;
+			buildConfigurationList = 1585FE951A4582320001AFF4 /* Build configuration list for PBXProject "SmartBulb" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,8 +213,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1585FE991A4582320001AFF4 /* Alfred */,
-				1585FEAE1A4582320001AFF4 /* AlfredTests */,
+				1585FE991A4582320001AFF4 /* SmartBulb */,
+				1585FEAE1A4582320001AFF4 /* SmartBulbTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +271,7 @@
 /* Begin PBXTargetDependency section */
 		1585FEB11A4582320001AFF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1585FE991A4582320001AFF4 /* Alfred */;
+			target = 1585FE991A4582320001AFF4 /* SmartBulb */;
 			targetProxy = 1585FEB01A4582320001AFF4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -383,7 +383,7 @@
 				INFOPLIST_FILE = SmartBulb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GTS.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Alfred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -394,7 +394,7 @@
 				INFOPLIST_FILE = SmartBulb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GTS.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Alfred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -413,8 +413,8 @@
 				INFOPLIST_FILE = SmartBulbTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GTS.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Alfred;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alfred.app/Alfred";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBulb.app/SmartBulb";
 			};
 			name = Debug;
 		};
@@ -429,15 +429,15 @@
 				INFOPLIST_FILE = SmartBulbTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GTS.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Alfred;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alfred.app/Alfred";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBulb.app/SmartBulb";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1585FE951A4582320001AFF4 /* Build configuration list for PBXProject "Alfred" */ = {
+		1585FE951A4582320001AFF4 /* Build configuration list for PBXProject "SmartBulb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1585FEB71A4582320001AFF4 /* Debug */,
@@ -446,7 +446,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1585FEB91A4582320001AFF4 /* Build configuration list for PBXNativeTarget "Alfred" */ = {
+		1585FEB91A4582320001AFF4 /* Build configuration list for PBXNativeTarget "SmartBulb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1585FEBA1A4582320001AFF4 /* Debug */,
@@ -455,7 +455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1585FEBC1A4582320001AFF4 /* Build configuration list for PBXNativeTarget "AlfredTests" */ = {
+		1585FEBC1A4582320001AFF4 /* Build configuration list for PBXNativeTarget "SmartBulbTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1585FEBD1A4582320001AFF4 /* Debug */,

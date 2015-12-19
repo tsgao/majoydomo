@@ -200,7 +200,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="on_small.png" id="XtP-my-XJP">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="on_small.png" id="XtP-my-XJP">
                         <inset key="imageInsets" minX="12" minY="27" maxX="18" maxY="13"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
@@ -325,7 +325,7 @@
                                     <offsetWrapper key="textShadowOffset" horizontal="1" vertical="1"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Alfred" id="TDJ-13-V8v"/>
+                                    <navigationItem title="SmartBulb" id="TDJ-13-V8v"/>
                                 </items>
                                 <variation key="default">
                                     <mask key="constraints">
