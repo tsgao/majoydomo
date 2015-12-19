@@ -82,6 +82,7 @@ c
 
 - Chatting by using IOS devices
 After the application is installed, you can simply click the App Icon on your device. Then, follow voice instruction to log in. Then click the Chatting icon on the bottom right. Sending your message in the text box.
+</br>
 ![alt text](https://github.com/tsgao/majoydomo/blob/master/how_to_use_app.png "How to use app")
 
 Team members and contacts.
